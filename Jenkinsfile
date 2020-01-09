@@ -12,7 +12,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("varunverma1996/devops_pipeline_demo")
+        app = docker.build("image3")
     }
 
     stage('Test image') {
